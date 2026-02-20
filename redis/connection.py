@@ -809,7 +809,7 @@ class Connection(AbstractConnection):
 
 class CacheProxyConnection(ConnectionInterface):
     DUMMY_CACHE_VALUE = b"foo"
-    MIN_ALLOWED_VERSION = "7.4.0"
+    MIN_ALLOWED_VERSION = "7.0.0"
     DEFAULT_SERVER_NAME = "redis"
 
     def __init__(
